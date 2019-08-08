@@ -9,7 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Transactional
 public class CustomerOrderService {
 
-    protected void test(){
+    public void test(){
 
         System.out.println("START");
     }
